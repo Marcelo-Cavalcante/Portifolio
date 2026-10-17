@@ -120,11 +120,11 @@ const PROJETOS = [
         repo: "https://github.com/Marcelo-Cavalcante/Vlog-Cats"
     },
     {
-        nome: "UMIC Acaracuzinho — Células de Jovens",
+        nome: "UMIC Acaracuzinho",
         imagem: "img/Card_06.png",
         tags: ["HTML", "CSS", "JavaScript", "Lógica"],
-        desc: "Site institucional da juventude da Igreja de Cristo no Acaracuzinho, desenvolvido com HTML, CSS e JavaScript, para apresentar as células, facilitar a escolha de um grupo conforme o dia, a faixa etária e o perfil do jovem, além de conhecer a liderança da juventude.",
-        problema: "Facilita o primeiro contato de jovens com a comunidade, ajudando-os a encontrar uma célula adequada ao seu perfil e a conhecer os líderes responsáveis. Centraliza informações sobre encontros, grupos e formas de contato em um único lugar, tornando mais simples dar o primeiro passo para participar da juventude.",
+        desc: "Site da juventude da Igreja de Cristo no Acaracuzinho, desenvolvido  para apresentar as células, facilitar a escolha de um grupo conforme a faixa etária e perfil, além de conhecer a liderança.",
+        problema: "Facilita o primeiro contato do jovens, ajudando-os a encontrar uma célula adequada ao seu perfil.",
         demo: "https://marcelo-cavalcante.github.io/Site-da-Umic/",
         repo: "https://github.com/Marcelo-Cavalcante/Site-da-Umic"
     }
