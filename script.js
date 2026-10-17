@@ -120,13 +120,13 @@ const PROJETOS = [
         repo: "https://github.com/Marcelo-Cavalcante/Vlog-Cats"
     },
     {
-        nome: "Sorteio Numérico",
+        nome: "UMIC Acaracuzinho — Células de Jovens",
         imagem: "img/Card_06.png",
         tags: ["HTML", "CSS", "JavaScript", "Lógica"],
-        desc: "Gerador de número aleatório dentro de um intervalo informado pelo usuário, com validação e lógica em JavaScript puro.",
-        problema: "Substitui o sorteio manual em rifas e dinâmicas, com resultado imediato e sem instalar nada.",
-        demo: "https://marcelo-cavalcante.github.io/Sorteio-Num-rico/",
-        repo: "https://github.com/Marcelo-Cavalcante/Sorteio-Num-rico"
+        desc: "Site institucional da juventude da Igreja de Cristo no Acaracuzinho, desenvolvido com HTML, CSS e JavaScript, para apresentar as células, facilitar a escolha de um grupo conforme o dia, a faixa etária e o perfil do jovem, além de conhecer a liderança da juventude.",
+        problema: "Facilita o primeiro contato de jovens com a comunidade, ajudando-os a encontrar uma célula adequada ao seu perfil e a conhecer os líderes responsáveis. Centraliza informações sobre encontros, grupos e formas de contato em um único lugar, tornando mais simples dar o primeiro passo para participar da juventude.",
+        demo: "https://marcelo-cavalcante.github.io/Site-da-Umic/",
+        repo: "https://github.com/Marcelo-Cavalcante/Site-da-Umic"
     }
 ];
 
