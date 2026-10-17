@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Marcelo Cavalcante | Desenvolvedor Full Stack</title>
+    <meta name="description"
+        content="Marcelo Cavalcante — Desenvolvedor Full Stack em Fortaleza/CE. Construo aplicações web responsivas com HTML, CSS, JavaScript, React e Node.js. Veja projetos publicados, habilidades e contato.">
+    <meta name="author" content="Marcelo Cavalcante">
+    <meta name="theme-color" content="#0b0e14">
+
+    <!-- TODO: troque pela URL real do site quando publicar -->
+    <link rel="canonical" href="https://marcelo-cavalcante.github.io/">
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Marcelo Cavalcante">
+    <meta property="og:title" content="Marcelo Cavalcante | Desenvolvedor Full Stack">
+    <meta property="og:description"
+        content="Desenvolvedor Full Stack. Aplicações web responsivas com HTML, CSS, JavaScript, React e Node.js.">
+    <meta property="og:url" content="https://marcelo-cavalcante.github.io/">
+    <meta property="og:image" content="https://marcelo-cavalcante.github.io/img/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Marcelo Cavalcante — Desenvolvedor Full Stack">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Marcelo Cavalcante",
+      "jobTitle": "Desenvolvedor Full Stack",
+      "email": "mailto:marcelomescouto41@gmail.com",
+      "url": "https://marcelo-cavalcante.github.io/",
+      "address": { "@type": "PostalAddress", "addressLocality": "Maracanaú", "addressRegion": "CE", "addressCountry": "BR" },
+      "knowsAbout": ["HTML", "CSS", "JavaScript", "React", "Node.js", "SQL", "Git"],
+      "sameAs": [
+        "https://github.com/Marcelo-Cavalcante",
+        "https://www.linkedin.com/in/marcelo-cavalcante-dev"
+      ]
+    }
+    </script>
+</head>
+
+<body>
+
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <!-- Sprite de ícones: SVG inline, sem biblioteca externa -->
+    <svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="i-github" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3Z" />
+        </symbol>
+        <symbol id="i-linkedin" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13Zm1.78 13.02H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z" />
+        </symbol>
+        <symbol id="i-whatsapp" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.76-1.66-2.06-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.55-.35ZM12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.64-.24-.38a9.86 9.86 0 0 1-1.51-5.25c0-5.45 4.44-9.89 9.9-9.89a9.82 9.82 0 0 1 9.89 9.9c0 5.45-4.44 9.88-9.9 9.88ZM20.52 3.49A11.78 11.78 0 0 0 12.05 0C5.5 0 .17 5.33.17 11.88c0 2.1.55 4.14 1.6 5.95L.07 24l6.33-1.66a11.86 11.86 0 0 0 5.67 1.44h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.24-6.15-3.48-8.4Z" />
+        </symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2.5" y="4.5" width="19" height="15" rx="2.5" />
+            <path d="m3.5 7 8.5 5.5L20.5 7" />
+        </symbol>
+        <symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3.5v11m0 0 4-4m-4 4-4-4M4.5 19.5h15" />
+        </symbol>
+        <symbol id="i-external" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 4h6v6M20 4 11 13" />
+            <path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4" />
+        </symbol>
+        <symbol id="i-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="m8.5 7-5 5 5 5M15.5 7l5 5-5 5M13.5 4.5l-3 15" />
+        </symbol>
+        <symbol id="i-layers" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="m12 3 9 5-9 5-9-5 9-5Z" />
+            <path d="m3 13 9 5 9-5M3 17l9 5 9-5" />
+        </symbol>
+        <symbol id="i-server" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="6.5" rx="1.5" />
+            <rect x="3" y="13.5" width="18" height="6.5" rx="1.5" />
+            <path d="M7 7.2h.01M7 16.8h.01" />
+        </symbol>
+        <symbol id="i-branch" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="6.5" cy="5.5" r="2.5" />
+            <circle cx="6.5" cy="18.5" r="2.5" />
+            <circle cx="17.5" cy="8" r="2.5" />
+            <path d="M6.5 8v8M17.5 10.5c0 4-5.5 2.5-5.5 7.5" />
+        </symbol>
+        <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect x="6.5" y="2.5" width="11" height="19" rx="2.5" />
+            <path d="M10.5 18.5h3" />
+        </symbol>
+        <symbol id="i-gauge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3.5 19a9 9 0 1 1 17 0" />
+            <path d="M12 14.5 16 9" />
+            <circle cx="12" cy="16" r="1.6" />
+        </symbol>
+        <symbol id="i-briefcase" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2.5" y="7" width="19" height="13.5" rx="2" />
+            <path d="M8.5 7V5.5a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2V7" />
+        </symbol>
+        <symbol id="i-cap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="m12 3.5 9.5 4.5L12 12.5 2.5 8 12 3.5Z" />
+            <path d="M6.5 10.2v4.6c0 1.7 2.5 3.2 5.5 3.2s5.5-1.5 5.5-3.2v-4.6" />
+        </symbol>
+        <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+            stroke-linecap="round">
+            <path d="M4 7h16M4 12h16M4 17h16" />
+        </symbol>
+        <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+            stroke-linecap="round">
+            <path d="m6 6 12 12M18 6 6 18" />
+        </symbol>
+        <symbol id="i-arrow-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 4.5v15m0 0 5-5m-5 5-5-5" />
+        </symbol>
+    </svg>
+
+    <header class="cabecalho" id="cabecalho">
+        <div class="cabecalho-inner">
+            <a class="marca" href="#inicio">
+                <span class="marca-sigla">MC</span>
+                <span class="marca-texto">Marcelo Cavalcante</span>
+            </a>
+
+            <nav class="nav" id="nav" aria-label="Navegação principal">
+                <ul class="nav-lista">
+                    <li><a class="nav-link" href="#inicio">Início</a></li>
+                    <li><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li><a class="nav-link" href="#trajetoria">Trajetória</a></li>
+                    <li><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+
+                <div class="nav-extra">
+                    <a class="btn btn-sm btn-primario" href="#contato">Falar comigo</a>
+                </div>
+            </nav>
+
+            <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">
+                <svg class="icone icone-menu" aria-hidden="true">
+                    <use href="#i-menu"></use>
+                </svg>
+                <svg class="icone icone-fechar" aria-hidden="true">
+                    <use href="#i-close"></use>
+                </svg>
+                <span class="sr-only">Abrir menu</span>
+            </button>
+        </div>
+    </header>
+
+    <div class="nav-fundo" id="nav-fundo" hidden></div>
+
+    <main id="conteudo">
+
+        <!-- ============ HERO ============ -->
+        <section class="hero" id="inicio">
+            <div class="hero-inner">
+                <div class="hero-texto">
+                    <p class="hero-disponibilidade">
+                        <span class="ponto" aria-hidden="true"></span>
+                        Aberto a oportunidades como desenvolvedor
+                    </p>
+
+                    <h1>Marcelo Cavalcante</h1>
+                    <p class="hero-cargo">Desenvolvedor Full Stack com foco em Front-end</p>
+
+                    <p class="hero-desc">
+                        Desenvolvo aplicações web completas, com foco na criação de interfaces modernas, responsivas e intuitivas. Tenho maior afinidade com o desenvolvimento front-end, utilizando HTML, CSS, JavaScript e React para transformar ideias em experiências digitais funcionais e atraentes. Também atuo no back-end com Node.js, desenvolvendo a lógica de negócio e integrações que conectam toda a aplicação.
+                    </p>
+
+                    <div class="hero-acoes">
+                        <a class="btn btn-primario" href="#projetos">Ver meus projetos</a>
+                        <a class="btn btn-contorno" href="#contato">Falar comigo</a>
+                    </div>
+
+                    <ul class="hero-social">
+                        <li>
+                            <a href="https://github.com/Marcelo-Cavalcante" target="_blank" rel="noopener noreferrer">
+                                <svg class="icone" aria-hidden="true">
+                                    <use href="#i-github"></use>
+                                </svg> GitHub
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/marcelo-cavalcante-dev" target="_blank"
+                                rel="noopener noreferrer">
+                                <svg class="icone" aria-hidden="true">
+                                    <use href="#i-linkedin"></use>
+                                </svg> LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/5585988868457" target="_blank" rel="noopener noreferrer">
+                                <svg class="icone" aria-hidden="true">
+                                    <use href="#i-whatsapp"></use>
+                                </svg> WhatsApp
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Marcelo_Cavalcante_-_CV.pdf" download>
+                                <svg class="icone" aria-hidden="true">
+                                    <use href="#i-download"></use>
+                                </svg> Currículo
+                            </a>
+                        </li>
+                    </ul>
+
+                    <dl class="hero-fatos">
+                        <div>
+                            <dt>Projetos publicados</dt>
+                            <dd>6+</dd>
+                        </div>
+                        <div>
+                            <dt>Formação</dt>
+                            <dd>Análise e Desenvolvimento de Sistemas</dd>
+                        </div>
+                        <div>
+                            <dt>Base</dt>
+                            <dd>Maracanaú, CE - Brasil</dd>
+                        </div>
+                    </dl>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-brilho" aria-hidden="true"></div>
+                    <img src="img/banner02.jpg" width="760" height="1330" fetchpriority="high" decoding="async"
+                        alt="Retrato de Marcelo Cavalcante" class="hero-foto">
+                </div>
+            </div>
+
+            <a class="hero-scroll" href="#sobre" aria-label="Ir para a seção Sobre">
+                <svg class="icone" aria-hidden="true">
+                    <use href="#i-arrow-down"></use>
+                </svg>
+            </a>
+        </section>
+
+        <!-- ============ SOBRE ============ -->
+        <section class="secao sobre" id="sobre">
+            <div class="secao-cabecalho reveal">
+                <p class="rotulo">Sobre</p>
+                <h2>Quem constrói o que você está vendo</h2>
+            </div>
+
+            <div class="sobre-grid">
+                <div class="sobre-texto reveal">
+                    <p>
+                        Sou desenvolvedor Full Stack, formado em Análise e Desenvolvimento de Sistemas, com foco em Front-end, em transição
+                        de carreira depois de anos atuando na área administrativa. Essa bagagem me ajuda a entender
+                        o problema antes de escrever código: quem vai usar a tela, o que precisa acontecer e onde
+                        o processo costuma travar.
+                    </p>
+                    <p>
+                        No front-end trabalho com HTML semântico, CSS moderno e JavaScript para construir interfaces
+                        responsivas e acessíveis, também com React. No back-end, uso Node.js e SQL para dar suporte
+                        a essas interfaces com rotas, dados e integrações de API. Já publiquei seis projetos próprios,
+                        todos com código aberto no GitHub.
+                    </p>
+
+                    <ul class="sobre-resolve">
+                        <li>Tirar um negócio do "só tenho Instagram" para uma página própria, rápida e responsiva.</li>
+                        <li>Transformar layouts e ideias em interfaces funcionais, do celular ao desktop.</li>
+                        <li>Consumir APIs e exibir dados de forma clara, com tratamento de erro e carregamento.</li>
+                    </ul>
+                </div>
+
+                <ul class="sobre-pilares reveal">
+                    <li>
+                        <svg class="icone" aria-hidden="true">
+                            <use href="#i-code"></use>
+                        </svg>
+                        <div>
+                            <h3>Código legível</h3>
+                            <p>HTML semântico e CSS organizado, fáceis de manter e evoluir.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <svg class="icone" aria-hidden="true">
+                            <use href="#i-phone"></use>
+                        </svg>
+                        <div>
+                            <h3>Mobile-first</h3>
+                            <p>O layout é pensado primeiro no celular e cresce até o desktop.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <svg class="icone" aria-hidden="true">
+                            <use href="#i-gauge"></use>
+                        </svg>
+                        <div>
+                            <h3>Performance e acesso</h3>
+                            <p>Imagens otimizadas, poucas dependências e navegação por teclado funcionando.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ============ HABILIDADES ============ -->
+        <section class="secao habilidades" id="habilidades">
+            <div class="secao-cabecalho reveal">
+                <p class="rotulo">Habilidades</p>
+                <h2>Tecnologias que uso no dia a dia</h2>
+            </div>
+
+            <div class="habilidades-grid" id="habilidades-grid">
+                <!-- gerado por script.js -->
+            </div>
+        </section>
+
+        <!-- ============ PROJETOS ============ -->
+        <section class="secao projetos" id="projetos">
+            <div class="secao-cabecalho reveal">
+                <p class="rotulo">Projetos</p>
+                <h2>Projetos publicados</h2>
+                <p class="secao-sub">
+                    Seis páginas construídas do zero, com demo ao vivo e código aberto. Clique em
+                    <strong>Ver projeto</strong> para abrir a versão publicada ou em <strong>Código</strong> para o
+                    repositório.
+                </p>
+            </div>
+
+            <div class="projetos-grid" id="projetos-grid">
+                <!-- gerado por script.js -->
+            </div>
+
+            <p class="projetos-rodape reveal">
+                <a class="link-acento" href="https://github.com/Marcelo-Cavalcante?tab=repositories" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="icone" aria-hidden="true">
+                        <use href="#i-github"></use>
+                    </svg>
+                    Ver todos os repositórios no GitHub
+                </a>
+            </p>
+        </section>
+
+        <!-- ============ TRAJETÓRIA ============ -->
+        <section class="secao trajetoria" id="trajetoria">
+            <div class="secao-cabecalho reveal">
+                <p class="rotulo">Trajetória</p>
+                <h2>Experiência e formação</h2>
+            </div>
+
+            <div class="trajetoria-grid">
+                <div class="reveal">
+                    <h3 class="trajetoria-titulo">
+                        <svg class="icone" aria-hidden="true">
+                            <use href="#i-briefcase"></use>
+                        </svg> Experiência
+                    </h3>
+                    <ol class="linha-tempo">
+                        <li>
+                            <p class="linha-tempo-data">Out 2024 — Fev 2025</p>
+                            <h4>Desenvolvedor web — Freelance</h4>
+                            <p class="linha-tempo-desc">
+                                Desenvolvimento de páginas web sob demanda com HTML, CSS e JavaScript, incluindo
+                                confeitaria, vlog, conversor de moedas, sorteio numérico, login de petshop e
+                                hamburgueria.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="linha-tempo-data">Jan 2023 — Jul 2025</p>
+                            <h4>Suporte administrativo — Banco do Nordeste (terceirizado)</h4>
+                            <p class="linha-tempo-desc">
+                                Célula de gerenciamento e processos trabalhistas: elaboração de manifestações de
+                                defesa e cálculos trabalhistas.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="linha-tempo-data">Nov 2013 — Jan 2023</p>
+                            <h4>Auxiliar de arquivo — Banco do Nordeste (terceirizado)</h4>
+                            <p class="linha-tempo-desc">
+                                Central de saúde ocupacional: organização de prontuários, planilhas de controle de
+                                empréstimo de documentos e apoio a campanhas e exames ocupacionais.
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="reveal">
+                    <h3 class="trajetoria-titulo">
+                        <svg class="icone" aria-hidden="true">
+                            <use href="#i-cap"></use>
+                        </svg> Formação
+                    </h3>
+                    <ol class="linha-tempo">
+                        <li>
+                            <p class="linha-tempo-data">2025</p>
+                            <h4>Análise e Desenvolvimento de Sistemas</h4>
+                            <p class="linha-tempo-desc">Centro Universitário Estácio do Ceará</p>
+                        </li>
+                        <li>
+                            <p class="linha-tempo-data">2024</p>
+                            <h4>Formação Desenvolvedor Full Stack</h4>
+                            <p class="linha-tempo-desc">DevClub · Digital College</p>
+                        </li>
+                        <li>
+                            <p class="linha-tempo-data">2014</p>
+                            <h4>Graduação em Administração</h4>
+                            <p class="linha-tempo-desc">Centro Universitário Estácio do Ceará</p>
+                        </li>
+                    </ol>
+
+                    <p class="trajetoria-idioma">Inglês — nível intermediário</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CONTATO ============ -->
+        <section class="secao contato" id="contato">
+            <div class="contato-caixa reveal">
+                <p class="rotulo">Contato</p>
+                <h2>Vamos construir algo juntos?</h2>
+                <p class="contato-sub">
+                    Estou aberto a vagas, freelances e projetos colaborativos. Respondo mais rápido por e-mail ou
+                    WhatsApp.
+                </p>
+
+                <div class="contato-acoes">
+                    <a class="btn btn-primario" href="mailto:marcelomescouto41@gmail.com">
+                        <svg class="icone" aria-hidden="true">
+                            <use href="#i-mail"></use>
+                        </svg> Enviar e-mail
+                    </a>
+                    <a class="btn btn-contorno" href="https://wa.me/5585988868457" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg class="icone" aria-hidden="true">
+                            <use href="#i-whatsapp"></use>
+                        </svg> WhatsApp
+                    </a>
+                </div>
+
+                <ul class="contato-links">
+                    <li>
+                        <a href="https://www.linkedin.com/in/marcelo-cavalcante-dev" target="_blank"
+                            rel="noopener noreferrer">
+                            <svg class="icone" aria-hidden="true">
+                                <use href="#i-linkedin"></use>
+                            </svg> linkedin.com/in/marcelo-cavalcante-dev
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Marcelo-Cavalcante" target="_blank" rel="noopener noreferrer">
+                            <svg class="icone" aria-hidden="true">
+                                <use href="#i-github"></use>
+                            </svg> github.com/Marcelo-Cavalcante
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:marcelomescouto41@gmail.com">
+                            <svg class="icone" aria-hidden="true">
+                                <use href="#i-mail"></use>
+                            </svg> marcelomescouto41@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Marcelo_Cavalcante_-_CV.pdf" download>
+                            <svg class="icone" aria-hidden="true">
+                                <use href="#i-download"></use>
+                            </svg> Baixar currículo (PDF)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-inner">
+            <p>&copy; <span id="ano">2026</span> Marcelo Cavalcante</p>
+            <p>Feito com HTML, CSS e JavaScript — sem frameworks.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
